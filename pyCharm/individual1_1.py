@@ -10,5 +10,5 @@ if __name__ == '__main__':
         exit(1)
     
     zeros = [i for i, item in enumerate(sp) if item == 0]
-    zeroCounter = len([i for i in sp if i == 0]) 
+    zero_counter = len([i for i in sp if i == 0]) 
     print(zeros)
